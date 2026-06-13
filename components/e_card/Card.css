@@ -1,0 +1,8 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: var(--font-roboto);
+    max-width: 364px;
+    margin: 20 auto;
+}
