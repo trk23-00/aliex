@@ -13,7 +13,7 @@ interface data{
 export default function Card() {
   return (
     <div className='card'>
-        <Encabezado/>
+        <Encabezado count={4}/>
         <LineCard data={{
             title: "Puxada frontal",
             description: "3 séries x 12 repetições",
