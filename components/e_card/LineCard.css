@@ -1,0 +1,26 @@
+.line-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #29292E;
+    height: 83px;
+    border-radius: 8px;
+}
+.line-card-left{
+    display: flex;
+    gap: 16px;
+}
+.line-card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-card-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.line-card-description{
+    font-size: 14px;
+    font-weight: 400;
+}
